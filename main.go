@@ -83,8 +83,6 @@ func mergedDefinitions(orig common.GetOpenAPIDefinitions, fallback spec.Definiti
 		for k, v := range orig(ref2) {
 			all[k] = v
 		}
-
-		all["k8s.io/apimachinery/pkg/util/intstr.IntOrString"] = common.OpenAPIDefinition{}
 		return all
 	}
 }
