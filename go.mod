@@ -1,4 +1,4 @@
-module github.com/ripta/openapi-crd-hack
+module github.com/ripta/openapi-promop-crd-hack
 
 go 1.12
 
